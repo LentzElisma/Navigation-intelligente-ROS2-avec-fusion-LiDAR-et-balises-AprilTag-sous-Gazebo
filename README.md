@@ -104,6 +104,3 @@ python3 main.py
 -  ROS2 bag recording for replay analysis
 
 ---
-
-## Author
-**Lentz E.**
