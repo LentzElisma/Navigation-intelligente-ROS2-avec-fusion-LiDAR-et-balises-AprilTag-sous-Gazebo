@@ -16,19 +16,6 @@ This project implements an **intelligent navigation system** for the TurtleBot3 
 
 ---
 
-## Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **ROS2 Humble** | Robot middleware, pub/sub architecture |
-| **Gazebo Classic** | 3D physics simulation environment |
-| **OpenCV** | Image processing, visual servoing |
-| **dt_apriltags** | Fiducial marker detection (tag36h11) |
-| **NumPy** | Mathematical operations, sensor fusion |
-| **LiDAR (360°)** | Real-time obstacle detection (0.12m - 3.5m range) |
-
----
-
 ## Key Features
 
 ###  **Visual Servoing System**
@@ -39,12 +26,6 @@ This project implements an **intelligent navigation system** for the TurtleBot3 
 ###  **Progressive LiDAR Safety**
 Multi-zone obstacle avoidance with anticipatory behavior:
 
-```
-Zone Libre (>80cm)      → Normal speed, no correction
-Zone Vigilance (60-80cm) → Gentle correction (40% power)
-Zone Danger (40-60cm)    → Strong correction + slowdown
-Zone Critique (<35cm)    → Emergency stop
-```
 
 ## Project Structure
 
